@@ -9,6 +9,9 @@
       <a class="header__logo" href="index.html">
         <img src="img/logo-desktop.svg" alt="Cat Energy">
       </a>
+      <div class="burger">
+        <button class="burger__button"></button>
+      </div>
       <nav class="nav">
         <button class="nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
         <ul class="nav__list">
@@ -35,110 +38,138 @@
       <section class="cards-field">
         <h2 class="visually-hidden">Товары в наличии</h2>
         <div class="cards-field__wrapper">
-          <ol class="card__product-list">
+          <ul class="card__product-list">
             <li class="card__product-item">
               <img class="card__product-image" src="./img/catalog-1-desktop.png" alt="Изображение товара">
               <p class="card__product-name">Cat Energy PRO 500 г</p>
-              <ol class="card__product-list">
-                <li class="card__product-list-title">Масса</li>
-                <li class="card__product-list-title">Вкус</li>
-                <li class="card__product-list-title">Цена</li>
-              </ol>
-              <ol class="card__product-list">
-                <li class="card__product-list-number">500 г</li>
-                <li class="card__product-list-number">Курица</li>
-                <li class="card__product-list-number">700 ₽</li>
-              </ol>
+              <table class="card__product price">
+                <tr>
+                  <td class="price__description">Масса</td>
+                  <td class="price__meaning">500 г</td>
+                </tr>
+                <tr>
+                  <td class="price__description">Вкус</td>
+                  <td class="price__meaning">Курица</td>
+                </tr>
+                <tr>
+                  <td class="price__description">Цена</td>
+                  <td class="price__meaning">700 ₽</td>
+                </tr>
+              </table>
               <button class="card__product-order">заказать</button>
             </li>
             <li class="card__product-item">
               <img class="card__product-image" src="./img/catalog-1-desktop.png" alt="Изображение товара">
               <p class="card__product-name">Cat Energy PRO 1000 г</p>
-              <ol class="card__product-list">
-                <li class="card__product-list-title">Масса</li>
-                <li class="card__product-list-title">Вкус</li>
-                <li class="card__product-list-title">Цена</li>
-              </ol>
-              <ol class="card__product-list">
-                <li class="card__product-list-number">1000 г</li>
-                <li class="card__product-list-number">Курица</li>
-                <li class="card__product-list-number">1000 ₽</li>
-              </ol>
+              <table class="card__product price">
+                <tr>
+                  <td class="price__description">Масса</td>
+                  <td class="price__meaning">1000 г</td>
+                </tr>
+                <tr>
+                  <td class="price__description">Вкус</td>
+                  <td class="price__meaning">Курица</td>
+                </tr>
+                <tr>
+                  <td class="price__description">Цена</td>
+                  <td class="price__meaning">1000 ₽</td>
+                </tr>
+              </table>
               <button class="card__product-order">заказать</button>
             </li>
             <li class="card__product-item">
               <img class="card__product-image" src="./img/catalog-1-desktop.png" alt="Изображение товара">
               <p class="card__product-name">Cat Energy PRO 500 г</p>
-              <ol class="card__product-list">
-                <li class="card__product-list-title">Масса</li>
-                <li class="card__product-list-title">Вкус</li>
-                <li class="card__product-list-title">Цена</li>
-              </ol>
-              <ol class="card__product-list">
-                <li class="card__product-list-number">500 г</li>
-                <li class="card__product-list-number">Рыба</li>
-                <li class="card__product-list-number">700 ₽</li>
-              </ol>
+              <table class="card__product price">
+                <tr>
+                  <td class="price__description">Масса</td>
+                  <td class="price__meaning">500 г</td>
+                </tr>
+                <tr>
+                  <td class="price__description">Вкус</td>
+                  <td class="price__meaning">Рыба</td>
+                </tr>
+                <tr>
+                  <td class="price__description">Цена</td>
+                  <td class="price__meaning">700 ₽</td>
+                </tr>
+              </table>
               <button class="card__product-order">заказать</button>
             </li>
             <li class="card__product-item">
               <img class="card__product-image" src="./img/catalog-1-desktop.png" alt="Изображение товара">
               <p class="card__product-name">Cat Energy PRO 1000 г</p>
-              <ol class="card__product-list">
-                <li class="card__product-list-title">Масса</li>
-                <li class="card__product-list-title">Вкус</li>
-                <li class="card__product-list-title">Цена</li>
-              </ol>
-              <ol class="card__product-list">
-                <li class="card__product-list-number">1000 г</li>
-                <li class="card__product-list-number">Рыба</li>
-                <li class="card__product-list-number">1000 ₽</li>
-              </ol>
+              <table class="card__product price">
+                <tr>
+                  <td class="price__description">Масса</td>
+                  <td class="price__meaning">1000 г</td>
+                </tr>
+                <tr>
+                  <td class="price__description">Вкус</td>
+                  <td class="price__meaning">Рыба</td>
+                </tr>
+                <tr>
+                  <td class="price__description">Цена</td>
+                  <td class="price__meaning">1000 ₽</td>
+                </tr>
+              </table>
               <button class="card__product-order">заказать</button>
             </li>
             <li class="card__product-item">
               <img class="card__product-image" src="./img/catalog-1-desktop.png" alt="Изображение товара">
               <p class="card__product-name">Cat Energy slim 500 г</p>
-              <ol class="card__product-list">
-                <li class="card__product-list-title">Масса</li>
-                <li class="card__product-list-title">Вкус</li>
-                <li class="card__product-list-title">Цена</li>
-              </ol>
-              <ol class="card__product-list">
-                <li class="card__product-list-number">500 г</li>
-                <li class="card__product-list-number">Гречка</li>
-                <li class="card__product-list-number">400 ₽</li>
-              </ol>
+              <table class="card__product price">
+                <tr>
+                  <td class="price__description">Масса</td>
+                  <td class="price__meaning">500 г</td>
+                </tr>
+                <tr>
+                  <td class="price__description">Вкус</td>
+                  <td class="price__meaning">Гречка</td>
+                </tr>
+                <tr>
+                  <td class="price__description">Цена</td>
+                  <td class="price__meaning">400 ₽</td>
+                </tr>
+              </table>
               <button class="card__product-order">заказать</button>
             </li>
             <li class="card__product-item">
               <img class="card__product-image" src="./img/catalog-1-desktop.png" alt="Изображение товара">
               <p class="card__product-name">Cat Energy slim 1000 г</p>
-              <ol class="card__product-list">
-                <li class="card__product-list-title">Масса</li>
-                <li class="card__product-list-title">Вкус</li>
-                <li class="card__product-list-title">Цена</li>
-              </ol>
-              <ol class="card__product-list">
-                <li class="card__product-list-number">1000 г</li>
-                <li class="card__product-list-number">Гречка</li>
-                <li class="card__product-list-number">700 ₽</li>
-              </ol>
+              <table class="card__product price">
+                <tr>
+                  <td class="price__description">Масса</td>
+                  <td class="price__meaning">1000 г</td>
+                </tr>
+                <tr>
+                  <td class="price__description">Вкус</td>
+                  <td class="price__meaning">Гречка</td>
+                </tr>
+                <tr>
+                  <td class="price__description">Цена</td>
+                  <td class="price__meaning">700 ₽</td>
+                </tr>
+              </table>
               <button class="card__product-order">заказать</button>
             </li>
             <li class="card__product-item">
               <img class="card__product-image" src="./img/catalog-1-desktop.png" alt="Изображение товара">
               <p class="card__product-name">Cat Energy slim 500 г</p>
-              <ol class="card__product-list">
-                <li class="card__product-list-title">Масса</li>
-                <li class="card__product-list-title">Вкус</li>
-                <li class="card__product-list-title">Цена</li>
-              </ol>
-              <ol class="card__product-list">
-                <li class="card__product-list-number">500 г</li>
-                <li class="card__product-list-number">Рис</li>
-                <li class="card__product-list-number">500 ₽</li>
-              </ol>
+              <table class="card__product price">
+                <tr>
+                  <td class="price__description">Масса</td>
+                  <td class="price__meaning">500 г</td>
+                </tr>
+                <tr>
+                  <td class="price__description">Вкус</td>
+                  <td class="price__meaning">Рис</td>
+                </tr>
+                <tr>
+                  <td class="price__description">Цена</td>
+                  <td class="price__meaning">500 ₽</td>
+                </tr>
+              </table>
               <button class="card__product-order">заказать</button>
             </li>
             <li class="card__product-item">
@@ -147,7 +178,7 @@
               <p class="card__product-description">На самом деле вкусов гораздо больше!</p>
               <button class="card__product-show">показать все</button>
             </li>
-          </ol>
+          </ul>
         </div>
       </section>
       <section class="extra">
@@ -193,7 +224,7 @@
           <p class="contacts__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
         </section>
         <section class="map">
-
+          <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a href="https://yandex.ru/maps/2/saint-petersburg/house/bolshaya_konyushennaya_ulitsa_19_8/Z0kYdQVjSUYAQFtjfXVyeXpgZQ==/?ll=30.323036%2C59.938631&utm_medium=mapframe&utm_source=maps&z=17.09" style="color:#eee;font-size:12px;position:absolute;top:14px;">Большая Конюшенная улица, 19/8 — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=30.323036%2C59.938631&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NzM5NDE4NBJh0KDQvtGB0YHQuNGPLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQu9C40YbQsCwgMTkvOCIKDZaV8kEVKcFvQg%2C%2C&utm_source=main_stripe_big&z=17.09" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
         </section>
         <div class="footer__logo">
           <a class="header__logo" href="index.html">
