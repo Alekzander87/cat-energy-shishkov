@@ -11,7 +11,7 @@
         <img src="img/logo-desktop.svg" alt="Cat Energy">
       </a>
       <nav class="nav">
-        <button class="nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+        <button class="nav__toggle burger" type="button"><span class="visually-hidden">Открыть меню</span></button>
         <ul class="nav__list">
           <li class="list__item">
             <a href="index.html">
@@ -32,7 +32,7 @@
       </nav>
     </header>
     <main class="main-wrapper">
-      <h1 class="catalog">Каталог продукции</h1>
+      <h1 class="card__title">Каталог продукции</h1>
       <section class="cards-field">
         <h2 class="visually-hidden">Товары в наличии</h2>
         <div class="cards-field__wrapper">
@@ -179,38 +179,40 @@
           </ul>
         </div>
       </section>
-      <section class="extra">
-        <div class="extra__wrapper">
-          <h2 class="extra__title">Дополнительные товары</h2>
-          <ol class="extra__list">
-            <li class="extra__item">
-              <h3 class="extra__title">Сахарозаменитель</h3>
-              <p class="extra__description">1 упаковка (100 г)</p>
-              <p class="extra__price">200 ₽</p>
-              <button class="extra__order">заказать</button>
+      <section class="catalog-extra">
+        <div class="catalog-extra__wrapper">
+          <h2 class="catalog-extra__title">Дополнительные товары</h2>
+          <ol class="catalog-extra__list">
+            <li class="catalog-extra__item">
+              <h3 class="catalog-extra__item-title">Сахарозаменитель</h3>
+              <p class="catalog-extra__description">1 упаковка (100 г)</p>
+              <p class="catalog-extra__price">200 ₽</p>
+              <button class="catalog-extra__order">заказать</button>
             </li>
-            <li class="extra__item">
-              <h3 class="extra__title">питьевая вода</h3>
-              <p class="extra__description">5 литров</p>
-              <p class="extra__price">50 ₽</p>
-              <button class="extra__order">заказать</button>
+            <li class="catalog-extra__item">
+              <h3 class="catalog-extra__item-title">питьевая вода</h3>
+              <p class="catalog-extra__description">5 литров</p>
+              <p class="catalog-extra__price">50 ₽</p>
+              <button class="catalog-extra__order">заказать</button>
             </li>
-            <li class="extra__item">
-              <h3 class="extra__title">молоко</h3>
-              <p class="extra__description">1 литр</p>
-              <p class="extra__price">100 ₽</p>
-              <button class="extra__order">заказать</button>
+            <li class="catalog-extra__item">
+              <h3 class="catalog-extra__item-title">молоко</h3>
+              <p class="catalog-extra__description">1 литр</p>
+              <p class="catalog-extra__price">100 ₽</p>
+              <button class="catalog-extra__order">заказать</button>
             </li>
-            <li class="extra__item">
-              <h3 class="extra__title">витамины</h3>
-              <p class="extra__description">1 упаковка (30 г)</p>
-              <p class="extra__price">300 ₽</p>
-              <button class="extra__order">заказать</button>
+            <li class="catalog-extra__item">
+              <h3 class="catalog-extra__item-title">витамины</h3>
+              <p class="catalog-extra__description">1 упаковка (30 г)</p>
+              <p class="catalog-extra__price">300 ₽</p>
+              <button class="catalog-extra__order">заказать</button>
             </li>
           </ol>
-          <div class="extra__gift">
-            <img class="extra__gift-icon" src="./img/icon-gift.svg" alt="подарок">
-            <p class="extra__gift-description">Закажите все и получите чехол для кота в подарок!</p>
+          <div class="catalog-extra__gift">
+            <div class="catalog-extra__gift-opasity">
+              <img class="catalog-extra__gift-icon" src="./img/icon-gift.svg" alt="подарок">
+              <p class="catalog-extra__gift-description">Закажите все и получите чехол для кота в подарок!</p>
+            </div>
           </div>
         </div>
       </section>
